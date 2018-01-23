@@ -291,12 +291,8 @@ setup(
         'web3',
         'ZODB>=5.3.0',
         'z3-solver>=4.5',
-        'laser-ethereum',
         'requests',
         'BTrees'
-    ],
-    dependency_links=[
-        "git+git://github.com/lbotsch/laser-ethereum.git#egg=laser-ethereum"
     ],
 
     python_requires='>=3.5',
