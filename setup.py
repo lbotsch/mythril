@@ -295,6 +295,9 @@ setup(
         'requests',
         'BTrees'
     ],
+    dependency_links=[
+        "git+git://github.com/lbotsch/laser-ethereum.git#egg=laser-ethereum"
+    ],
 
     python_requires='>=3.5',
 
